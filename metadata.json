@@ -1,0 +1,7 @@
+{
+  "name": "Zenin Chatt",
+  "description": "Application privée de discussion et d'étude moderne et sécurisée pour étudiants.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
