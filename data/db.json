@@ -1,0 +1,350 @@
+{
+  "_comment": "Zenin Chatt Database",
+  "users": [
+    {
+      "id": "usr-mickael",
+      "name": "Mickael",
+      "email": "mickael@gmail.com",
+      "passwordHash": "376128ec6324ed592d1b08cae72ea0bedf36a315ddd9a56c88a4058a84fd16b3",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=150&q=80",
+      "role": "USER",
+      "status": "ACTIVE",
+      "approved": true,
+      "banned": false,
+      "createdAt": "2026-09-03T16:59:49.265Z",
+      "lastSeen": "10:24",
+      "isOnline": true
+    },
+    {
+      "id": "usr-lova",
+      "name": "Lova",
+      "email": "lova@outlook.com",
+      "passwordHash": "376128ec6324ed592d1b08cae72ea0bedf36a315ddd9a56c88a4058a84fd16b3",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&q=80",
+      "role": "USER",
+      "status": "ACTIVE",
+      "approved": true,
+      "banned": false,
+      "createdAt": "2026-09-04T16:59:49.265Z",
+      "lastSeen": "09:48",
+      "isOnline": true
+    },
+    {
+      "id": "usr-tiana",
+      "name": "Tiana",
+      "email": "tiana@gmail.com",
+      "passwordHash": "376128ec6324ed592d1b08cae72ea0bedf36a315ddd9a56c88a4058a84fd16b3",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80",
+      "role": "USER",
+      "status": "ACTIVE",
+      "approved": true,
+      "banned": false,
+      "createdAt": "2026-09-05T16:59:49.265Z",
+      "lastSeen": "Hier",
+      "isOnline": true
+    },
+    {
+      "id": "usr-rado",
+      "name": "Rado",
+      "email": "radosfb@yahoo.com",
+      "passwordHash": "376128ec6324ed592d1b08cae72ea0bedf36a315ddd9a56c88a4058a84fd16b3",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80",
+      "role": "USER",
+      "status": "ACTIVE",
+      "approved": true,
+      "banned": false,
+      "createdAt": "2026-09-06T16:59:49.265Z",
+      "lastSeen": "Hier",
+      "isOnline": true
+    },
+    {
+      "id": "usr-fanja",
+      "name": "Fanja",
+      "email": "fanja@gmail.com",
+      "passwordHash": "376128ec6324ed592d1b08cae72ea0bedf36a315ddd9a56c88a4058a84fd16b3",
+      "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=150&q=80",
+      "role": "USER",
+      "status": "ACTIVE",
+      "approved": true,
+      "banned": false,
+      "createdAt": "2026-09-07T16:59:49.265Z",
+      "lastSeen": "Lun",
+      "isOnline": false
+    },
+    {
+      "id": "usr-tojo",
+      "name": "Tojo",
+      "email": "tojo@outlook.com",
+      "passwordHash": "376128ec6324ed592d1b08cae72ea0bedf36a315ddd9a56c88a4058a84fd16b3",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=150&q=80",
+      "role": "USER",
+      "status": "ACTIVE",
+      "approved": true,
+      "banned": false,
+      "createdAt": "2026-09-08T16:59:49.265Z",
+      "lastSeen": "Lun",
+      "isOnline": true
+    },
+    {
+      "id": "usr-banned-demo",
+      "name": "Bastien",
+      "email": "bastien@gmail.com",
+      "passwordHash": "376128ec6324ed592d1b08cae72ea0bedf36a315ddd9a56c88a4058a84fd16b3",
+      "avatar": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=150&q=80",
+      "role": "USER",
+      "status": "BANNED",
+      "approved": true,
+      "banned": true,
+      "banReason": "Comportement non conforme au règlement des révisions",
+      "createdAt": "2026-08-31T16:59:49.265Z",
+      "lastSeen": "Il y a 1 j",
+      "isOnline": false
+    },
+    {
+      "id": "usr-current",
+      "name": "Zenin Student",
+      "email": "etudiant@zenin.chatt",
+      "passwordHash": "4b213240c33894cce9f490cd999745e10f87883fd51939e3ea266b7ac9a69fc7",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80",
+      "role": "USER",
+      "status": "ACTIVE",
+      "approved": true,
+      "banned": false,
+      "createdAt": "2026-08-29T16:59:49.265Z",
+      "lastSeen": "En ligne",
+      "isOnline": true
+    },
+    {
+      "id": "usr-23d571045b9d",
+      "name": "Carmelo",
+      "email": "mpg708cn@gmail.com",
+      "passwordHash": "f4b697eadd13db064f95a8f1dca3c7bcd1dcf0afc024fc7a359476f761eb8944",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80",
+      "role": "USER",
+      "status": "ACTIVE",
+      "approved": true,
+      "banned": false,
+      "createdAt": "2026-09-10T16:59:49.291Z",
+      "lastSeen": "Récemment",
+      "isOnline": false
+    }
+  ],
+  "registrationRequests": [],
+  "conversations": [
+    {
+      "id": "conv-25058f77506e",
+      "createdAt": "2026-09-10T17:04:14.206Z",
+      "updatedAt": "2026-09-10T17:04:14.206Z",
+      "memberIds": [
+        "usr-23d571045b9d",
+        "usr-current"
+      ]
+    },
+    {
+      "id": "conv-c31e66e7df96",
+      "createdAt": "2026-09-10T17:03:29.539Z",
+      "updatedAt": "2026-09-10T17:03:29.539Z",
+      "memberIds": [
+        "usr-23d571045b9d",
+        "usr-mickael"
+      ]
+    },
+    {
+      "id": "conv-mickael",
+      "createdAt": "2026-09-09T16:59:49.265Z",
+      "updatedAt": "2026-09-10T16:59:49.265Z",
+      "memberIds": [
+        "usr-current",
+        "usr-mickael"
+      ]
+    },
+    {
+      "id": "conv-lova",
+      "createdAt": "2026-09-08T16:59:49.265Z",
+      "updatedAt": "2026-09-10T15:59:49.265Z",
+      "memberIds": [
+        "usr-current",
+        "usr-lova"
+      ]
+    },
+    {
+      "id": "conv-tiana",
+      "createdAt": "2026-09-07T16:59:49.265Z",
+      "updatedAt": "2026-09-10T17:18:08.172Z",
+      "memberIds": [
+        "usr-current",
+        "usr-tiana"
+      ]
+    }
+  ],
+  "messages": [
+    {
+      "id": "msg-1",
+      "conversationId": "conv-mickael",
+      "senderId": "usr-mickael",
+      "content": "Salut ! Tu as fini ton exercice ?",
+      "createdAt": "10:22",
+      "read": true
+    },
+    {
+      "id": "msg-2",
+      "conversationId": "conv-mickael",
+      "senderId": "usr-current",
+      "content": "Oui, j'ai terminé. On peut réviser ensemble ce soir ?",
+      "createdAt": "10:24",
+      "read": true
+    },
+    {
+      "id": "msg-3",
+      "conversationId": "conv-mickael",
+      "senderId": "usr-mickael",
+      "content": "Parfait ! À tout à l'heure 😊",
+      "createdAt": "10:25",
+      "read": true
+    },
+    {
+      "id": "msg-4",
+      "conversationId": "conv-lova",
+      "senderId": "usr-lova",
+      "content": "Merci beaucoup pour les notes de cours d'hier !",
+      "createdAt": "09:48",
+      "read": true
+    },
+    {
+      "id": "msg-5",
+      "conversationId": "conv-tiana",
+      "senderId": "usr-tiana",
+      "content": "On révise ensemble le module d'algorithmes ce week-end ?",
+      "createdAt": "Hier",
+      "read": true
+    },
+    {
+      "id": "msg-a29503185ae0",
+      "conversationId": "conv-tiana",
+      "senderId": "usr-current",
+      "content": "De awn lty",
+      "createdAt": "17:18",
+      "read": false
+    }
+  ],
+  "activityLogs": [
+    {
+      "type": "APPROVE",
+      "title": "Utilisateur approuvé",
+      "description": "Compte activé pour Mialy",
+      "timestamp": "À l’instant",
+      "targetName": "Mialy",
+      "userId": "usr-pending-mialy",
+      "id": "log-2b8c3d39"
+    },
+    {
+      "type": "APPROVE",
+      "title": "Utilisateur approuvé",
+      "description": "Compte activé pour Josue",
+      "timestamp": "À l’instant",
+      "targetName": "Josue",
+      "userId": "usr-pending-josue",
+      "id": "log-5443ba74"
+    },
+    {
+      "type": "APPROVE",
+      "title": "Utilisateur approuvé",
+      "description": "Compte activé pour Rina",
+      "timestamp": "À l’instant",
+      "targetName": "Rina",
+      "userId": "usr-pending-rina",
+      "id": "log-85ed465c"
+    },
+    {
+      "type": "APPROVE",
+      "title": "Utilisateur approuvé",
+      "description": "Compte activé pour Carmelo",
+      "timestamp": "À l’instant",
+      "targetName": "Carmelo",
+      "userId": "usr-23d571045b9d",
+      "id": "log-a01ad7c8"
+    },
+    {
+      "type": "ADMIN_LOGIN",
+      "title": "Connexion administrateur",
+      "description": "Accès autorisé au panneau d’administration",
+      "timestamp": "À l’instant",
+      "id": "log-cef01f6c"
+    },
+    {
+      "type": "REGISTER",
+      "title": "Nouveau compte en attente",
+      "description": "Carmelo (mpg708cn@gmail.com)",
+      "timestamp": "À l’instant",
+      "userId": "usr-23d571045b9d",
+      "targetName": "Carmelo",
+      "id": "log-1b23ca37"
+    },
+    {
+      "id": "act-1",
+      "type": "REGISTER",
+      "title": "Nouveau compte en attente",
+      "description": "Rina (rina@gmail.com)",
+      "timestamp": "Il y a 5 min",
+      "targetName": "Rina"
+    },
+    {
+      "id": "act-2",
+      "type": "REGISTER",
+      "title": "Nouveau compte en attente",
+      "description": "Josue (josue@outlook.com)",
+      "timestamp": "Il y a 12 min",
+      "targetName": "Josue"
+    },
+    {
+      "id": "act-3",
+      "type": "APPROVE",
+      "title": "Utilisateur approuvé",
+      "description": "Compte activé pour Tiana",
+      "timestamp": "Il y a 20 min",
+      "targetName": "Tiana"
+    },
+    {
+      "id": "act-4",
+      "type": "BAN",
+      "title": "Utilisateur banni",
+      "description": "Bastien banni pour infraction",
+      "timestamp": "Il y a 1 h",
+      "targetName": "Bastien"
+    }
+  ],
+  "settings": {
+    "adminSecret": "\" z?e?n?i?n?#?c?h?a?t?t? \"",
+    "appName": "Zenin Chatt",
+    "version": "1.0.0",
+    "allowRegistrations": true,
+    "maintenanceMode": false
+  },
+  "sessions": {
+    "token-demo-student": {
+      "userId": "usr-current",
+      "role": "USER",
+      "expiresAt": 1820596267972
+    },
+    "token-demo-admin": {
+      "userId": "admin-1",
+      "role": "ADMIN",
+      "expiresAt": 1820596267972
+    },
+    "905a4862e15fb250ecee0d2bc0c3d6bef5b733d54bfe9c654282828154a508d7": {
+      "userId": "admin-root",
+      "role": "ADMIN",
+      "expiresAt": 1789664496206
+    },
+    "9fb36c9aed279dc900bbb6bcd5371e28444f8e979eb5b45458bf7cd754a7ca5f": {
+      "userId": "usr-current",
+      "role": "USER",
+      "expiresAt": 1789665453209
+    },
+    "de7bca17844f01fab4b8cb571c7274d0818f0ae0870871ed41309bccab5fe514": {
+      "userId": "usr-current",
+      "role": "USER",
+      "expiresAt": 1789666223642
+    }
+  }
+}

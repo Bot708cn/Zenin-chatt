@@ -76,7 +76,8 @@ interface DatabaseSchema {
   sessions: { [token: string]: { userId: string; role: 'USER' | 'ADMIN'; expiresAt: number } };
 }
 
-const DB_DIR = path.resolve(process.cwd(), 'data');
+const isServerless = Boolean(process.env.VERCEL || process.env.AWS_LAMBDA_FUNCTION_NAME || process.env.LAMBDA_TASK_ROOT);
+const DB_DIR = isServerless ? path.resolve('/tmp', 'zenin-data') : path.resolve(process.cwd(), 'data');
 const DB_FILE = path.join(DB_DIR, 'db.json');
 
 export function hashPassword(password: string): string {
