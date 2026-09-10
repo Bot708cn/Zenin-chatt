@@ -46,15 +46,36 @@ class ApiClient {
       headers['Authorization'] = `Bearer ${token}`;
     }
 
-    const response = await fetch(`/api${endpoint}`, {
-      ...options,
-      headers,
-    });
+    let response: Response;
+    try {
+      response = await fetch(`/api${endpoint}`, {
+        ...options,
+        headers,
+      });
+    } catch (networkErr: any) {
+      const error = new Error('Impossible de contacter le serveur. Vérifiez votre connexion Internet ou réessayez.');
+      (error as any).status = 0;
+      throw error;
+    }
 
     const data = await response.json().catch(() => ({}));
 
     if (!response.ok) {
-      const error = new Error(data.error || 'Une erreur est survenue.');
+      let message = data.error || data.message;
+      if (!message) {
+        if (response.status === 401) {
+          message = 'Identifiants ou session invalide.';
+        } else if (response.status === 403) {
+          message = 'Accès non autorisé.';
+        } else if (response.status === 404) {
+          message = 'Service API introuvable (404).';
+        } else if (response.status >= 500) {
+          message = 'Le serveur a rencontré une erreur. Veuillez réessayer.';
+        } else {
+          message = 'Une erreur est survenue lors de la communication avec le serveur.';
+        }
+      }
+      const error = new Error(message);
       (error as any).status = response.status;
       (error as any).data = data;
       throw error;

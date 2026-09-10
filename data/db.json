@@ -1,5 +1,4 @@
 {
-  "_comment": "Zenin Chatt Database",
   "users": [
     {
       "id": "usr-mickael",
@@ -12,7 +11,7 @@
       "approved": true,
       "banned": false,
       "createdAt": "2026-09-03T16:59:49.265Z",
-      "lastSeen": "10:24",
+      "lastSeen": "En ligne",
       "isOnline": true
     },
     {
@@ -127,9 +126,33 @@
       "createdAt": "2026-09-10T16:59:49.291Z",
       "lastSeen": "Récemment",
       "isOnline": false
+    },
+    {
+      "id": "usr-323e048ac0c7",
+      "name": "Test Étudiant",
+      "email": "testetudiant@gmail.com",
+      "passwordHash": "6ff36512f33f33a5ec5d2511bdb5d877068917eac4c4434b1ab31faa7c548bde",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80",
+      "role": "USER",
+      "status": "PENDING",
+      "approved": false,
+      "banned": false,
+      "createdAt": "2026-09-10T17:46:58.883Z",
+      "lastSeen": "À l’instant",
+      "isOnline": false
     }
   ],
-  "registrationRequests": [],
+  "registrationRequests": [
+    {
+      "id": "req-22b9bd2d24b5",
+      "userId": "usr-323e048ac0c7",
+      "userName": "Test Étudiant",
+      "userEmail": "testetudiant@gmail.com",
+      "userAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80",
+      "createdAt": "2026-09-10T17:46:58.883Z",
+      "status": "PENDING"
+    }
+  ],
   "conversations": [
     {
       "id": "conv-25058f77506e",
@@ -229,6 +252,22 @@
   ],
   "activityLogs": [
     {
+      "type": "ADMIN_LOGIN",
+      "title": "Connexion administrateur",
+      "description": "Accès autorisé au panneau d’administration",
+      "timestamp": "À l’instant",
+      "id": "log-3289c85c"
+    },
+    {
+      "type": "REGISTER",
+      "title": "Nouveau compte en attente",
+      "description": "Test Étudiant (testetudiant@gmail.com)",
+      "timestamp": "À l’instant",
+      "userId": "usr-323e048ac0c7",
+      "targetName": "Test Étudiant",
+      "id": "log-a6fa4255"
+    },
+    {
       "type": "APPROVE",
       "title": "Utilisateur approuvé",
       "description": "Compte activé pour Mialy",
@@ -314,7 +353,7 @@
     }
   ],
   "settings": {
-    "adminSecret": "\" z?e?n?i?n?#?c?h?a?t?t? \"",
+    "adminSecret": "z?e?n?i?n?#?c?h?a?t?t?",
     "appName": "Zenin Chatt",
     "version": "1.0.0",
     "allowRegistrations": true,
@@ -345,6 +384,22 @@
       "userId": "usr-current",
       "role": "USER",
       "expiresAt": 1789666223642
+    },
+    "bac65c67275fca85b7053a359a63c20064d6faf00b97ca6790b1ddc7af0b0e0c": {
+      "userId": "usr-mickael",
+      "role": "USER",
+      "expiresAt": 1789667218866
+    },
+    "bf1bff8d6acb466cf796081229c32b603fbfc2aadc2985cba3ce2aff035d0e5f": {
+      "userId": "usr-mickael",
+      "role": "USER",
+      "expiresAt": 1789667268114
+    },
+    "084926dba3f013d375feb797cf6394c73f750b1a033ebb5afc59888187bcdc4a": {
+      "userId": "admin-root",
+      "role": "ADMIN",
+      "expiresAt": 1789667298810
     }
-  }
+  },
+  "_comment": "Zenin Chatt Database"
 }
