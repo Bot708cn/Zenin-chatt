@@ -15,3 +15,6 @@ serverApp.get(['/health', '/api/health'], (_req, res) => {
 serverApp.use('/api', apiRouter);
 serverApp.use(apiRouter);
 
+export default serverApp;
+
+

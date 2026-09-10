@@ -399,6 +399,16 @@
       "userId": "admin-root",
       "role": "ADMIN",
       "expiresAt": 1789667298810
+    },
+    "8a07ec6978332bd05d57deb39e776fed227b347e7b52dcee367b0e663976929f": {
+      "userId": "usr-mickael",
+      "role": "USER",
+      "expiresAt": 1789667786546
+    },
+    "2e2c807b03ec0be3c24b479b52c2fe1627229820a5a435d6e32855d4708647b0": {
+      "userId": "usr-mickael",
+      "role": "USER",
+      "expiresAt": 1789667790624
     }
   },
   "_comment": "Zenin Chatt Database"
